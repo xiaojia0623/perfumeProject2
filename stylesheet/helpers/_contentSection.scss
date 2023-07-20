@@ -1,0 +1,50 @@
+//content 首頁-中間產品介紹
+.content-image-first{
+    background-image: url(https://images.unsplash.com/photo-1563170351-be82bc888aa4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTd8MTE1ODAyMTR8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position:center center;
+    background-size: cover;
+    height: 555px;
+    max-width: 100%;
+    display: flex;
+}
+.content-image-second{
+    background-image: url(https://images.unsplash.com/photo-1594913365927-d35af29a0684?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8MTE1ODAyMTR8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position:center center;
+    background-size: cover;
+    height: 555px;
+    max-width: 100%;
+    display: flex;
+}
+.content-image-third{
+    background-image: url(https://images.unsplash.com/photo-1544468266-6a8948003cd7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTZ8MTE1ODAyMTR8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position:center center;
+    background-size: cover;
+    height: 555px;
+    max-width: 100%;
+    display: flex;
+}
+.content-image-fourth{
+    background-image: url(https://images.unsplash.com/photo-1594913785162-e678a0c23ee9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8OHwxMTU4MDIxNHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60);
+    background-position:bottom center;
+    background-size: cover;
+    height: 950px;
+    max-width: 100%;
+    display: flex;
+}
+.list-content{
+    h3{
+        font-size: 24px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+.f-16{
+    font-size: 16px;
+}
+.f-20{
+    font-size: 20px;
+}
+.f-32{
+    font-size: 32px;
+}

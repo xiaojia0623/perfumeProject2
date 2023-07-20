@@ -1,0 +1,89 @@
+
+//content 首頁-三張卡片
+.three-card{
+    .card-img-first{
+        img{
+            background-position:bottom center;
+            background-size: cover;
+            height: 540px;
+            width: 90%;
+        }
+    }
+    .card-img-second{
+        img{
+            background-position:center center;
+            background-size: cover;
+            height: 540px;
+            width: 90%;
+        }
+    }
+    .card-img-third{
+        .card-content{
+            position: relative;
+            img{
+                background-position:center center;
+                background-size: cover;
+                height: 540px;
+                max-width: 100%;
+                position: relative;
+                overflow: hidden;
+            }
+            .content-p{
+                background-color: rgba(0, 0, 0, 0.3);
+                position: absolute;
+                top: 0;left: 0;
+                width:100%; height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+        }
+    }
+}
+@include pad{
+    .three-card{
+        margin: 0 auto;
+        .card-img-first{
+            img{
+                object-fit: cover;
+                height: 340px;
+                width: 350px;
+            }
+        }
+        .card-img-second{
+            img{
+                background-position:center center;
+                background-size: cover;
+                object-fit: cover;
+                height: 340px;
+                width: 350px;
+            }
+        }
+        .card-img-third{
+            .card-content{
+                position: relative;
+                top:0;
+                img, .content-p{
+                    width: 100%;
+                    height: 340px;
+                }
+            }
+        }
+    }
+}
+@include iphone-b{
+    .card-content{
+        .content-p{
+            width: 100%;
+        }
+    }
+}
+
+@include iphone{
+    .card-content{
+        .content-p{
+            width: 100%;
+        } 
+    }
+}

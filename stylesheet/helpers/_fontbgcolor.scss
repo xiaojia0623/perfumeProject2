@@ -1,0 +1,43 @@
+//navbar font color
+//color-gray  > #8D8D8D
+
+//content 小字 color (查看更多)
+// color-brown > #AC8A46
+$font-color: #AC8A46;
+$input-bg-color: #916000;
+.icon-c{
+    color: #AC8A46;
+}
+.font-brown{
+    color:$font-color;
+    &:hover{
+        color:#fff;
+        background:$font-color;
+    }
+}
+.bg-brown{
+    background-color: #916000;
+}
+//content background-color
+// bg-gray > #E0E0E0
+.bg-gray{
+    background-color: #E0E0E0;
+}
+//footer-color
+//footer-bg-color > #916000
+
+.font-none{
+    text-decoration: none;
+}
+
+.font-under{
+    text-decoration: underline $font-color;
+    color:$font-color;
+}
+
+.menu-h{
+    color:#fff;
+    &:hover{
+        color:blue;
+    }
+}

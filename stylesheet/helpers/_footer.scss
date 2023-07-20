@@ -1,0 +1,49 @@
+//footer相關設定
+.footer-bg{
+    background-image: url(https://images.unsplash.com/photo-1532413992378-f169ac26fff0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80);
+    background-size:cover;
+    background-position:center;
+    height: 600px;
+}
+
+@include pad { 
+    .footer-bg{
+        background-position:center left;
+    }
+}
+
+h5{
+    font-size:32px;
+    color:#8d8d8d;
+    margin-bottom:20px;
+}
+
+.footerInput-group{
+    display:flex;
+    align-items:stretch;
+    margin-bottom:120px;
+    input{
+        padding:20px 16px;
+        border-radius:0;
+        overflow: hidden;
+        border:2px solid #916000;
+        margin-right:-2px;
+        flex-grow:1;
+        &:focus{
+            outline:none;
+        }
+    }
+    button{
+        padding:0 26px;
+        border-radius:0;
+        background-color:#916000;
+        color:#fff;
+        border:2px solid #916000;
+        font-weight:600;
+        &:hover{
+            background-color:#6c4700;
+            color:#fff;
+            border-color:#6c4700;
+        }
+    }
+}
